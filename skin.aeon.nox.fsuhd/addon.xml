@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.aeon.nox.fsuhd" version="21.2.1" name="FSUHD" provider-name="filmoscopelab">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="1.1.4" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">GUI for FS UHD Media Center</summary>
+		<summary lang="ru_RU">GUI for FS UHD Media Center</summary>
+		<description lang="en_GB">FSHD17: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="ru_RU">FSHD17: полностью переделенная, модернизированная классическая обложка Aeon.</description>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<website>http://filmoscope-lab.com</website>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
